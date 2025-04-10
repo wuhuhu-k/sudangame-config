@@ -813,7 +813,8 @@
                 "condition":  //额外结果：装潢是"奇观"
                 {
                     "s3.is":2000183,
-                    "counter.7000008<":2
+                    // "counter.7000008<":2
+                    "counter.7000008>=":2
 
                 },
                 "result_title":"",
@@ -830,7 +831,8 @@
                 "condition":  //额外结果：装潢是"奇观"
                 {
                     "s3.is":2000183,
-                    "counter.7000008>=":2
+                    // "counter.7000008>=":2
+                    "counter.7000008<":2
 
                 },
                 "result_title":"",
