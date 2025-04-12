@@ -16,7 +16,7 @@
             "tips_resource":"", 
             "tips_text":"",
             "action":{
-                // "card":2000083, //妻子的不满
+                "card":2000083, //妻子的不满
                 "counter+7100003": 2, //权势
                 "counter+7100004": 2, //侠名               
                 "prompt":{
