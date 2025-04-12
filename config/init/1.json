@@ -13,7 +13,7 @@
     ],
     "gold_dice_count": 0,
     "back_to_prev_round_count": 9999,
-    "sudan_life_time": 7,
+    "sudan_life_time": 99,
     "difficulty": [
         {
             "name": "梅姬",
@@ -23,7 +23,7 @@
             "sudan_redraw_times_per_round": 3,
             "gold_dice_count": 3,
             "back_to_prev_round_count": 9999,
-            "sudan_life_time": 7
+            "sudan_life_time": 99
         },
         {
             "name": "哈桑",
