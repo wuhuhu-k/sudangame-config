@@ -5,7 +5,7 @@
     "auto_start": false,
     "start_trigger": false, // 是否启动就立即开始校验条件
     "on":{   //时机
-        "round_begin_ba": [10,20]
+        "round_begin_ba": 1
     },
     "condition":{  //条件
         "counter.7100001>=":3, // 善名大于等于3

@@ -1,0 +1,126 @@
+{
+	"id": 95000109,
+	"name": "回收市场",
+	"text": "这里是回收物品的地方",       
+	"tips": "",
+	"once_new":1,
+	"round_number": 0,
+	"waiting_round":0,
+	"waiting_round_end_action":[
+	],        
+	"method_settlement": "",
+	"auto_begin": 0, 
+	"auto_result":0,
+	"location": "商业区:7", 
+	"icon": "rite_6", 
+	"tag_tips": [
+	],
+	"tag_tips_up":{
+	},       
+	"tips_text":[
+                "将物品放入槽位就可以出售",
+                "可以回收装备、书籍、食物、奇珍、情报等",
+                "根据品级统一定价"
+	],
+	"open_conditions": [
+	],
+	"random_text":{
+	},
+	"random_text_up":{
+	},
+	"settlement_prior": [
+	],                
+	"settlement": [
+	],               
+	"settlement_extre": [
+		{
+			"condition": {
+				"s1":1,
+				"s1.rare=":1
+			},
+			"result_title":"",
+			"result_text": "出售成功",
+			"result": 
+			{
+				"clean.s1": 1,
+				"金币":1
+			},
+			"action": {
+				"rite":95000109
+			}
+		},
+		{
+			"condition": {
+				"s1":1,
+				"s1.rare=":2
+			},
+			"result_title":"",
+			"result_text": "出售成功",
+			"result": 
+			{
+				"clean.s1": 1,
+				"金币":2
+			},
+			"action": {
+				"rite":95000109
+			}
+		},
+		{
+			"condition": {
+				"s1":1,
+				"s1.rare=":3
+			},
+			"result_title":"",
+			"result_text": "出售成功",
+			"result": 
+			{
+				"clean.s1": 1,
+				"金币":6
+			},
+			"action": {
+				"rite":95000109
+			}
+		},
+		{
+			"condition": {
+				"s1":1,
+				"s1.rare=":4
+			},
+			"result_title":"",
+			"result_text": "出售成功",
+			"result": 
+			{
+				"clean.s1": 1,
+				"金币":12
+			},
+			"action": {
+				"rite":95000109
+			}
+		}
+	],
+	"cards_slot":
+	{
+		"s1":
+			{
+				"condition": 
+				{
+					"type":"item",
+					"any":{
+						"装备":1,
+						"淫具":1,
+						"读物":1,
+						"食物":1,
+						"奇珍":1,
+						"情报":1
+					},
+					//"rare=":1,
+					"已拥有":1
+				},
+				"open_adsorb":0,
+				"is_key":0,
+				"is_empty":0,
+				"is_enemy":0,
+				"text":"需要出售的物品"
+			}
+	}
+ }

@@ -31,6 +31,10 @@
                              "text": "美艳：体魄+1，魅力+1",
                              "tag": "op3"
                          }
+                         {
+                             "text": "她是我眼中最完美的女人：体魄、战斗、智慧、社交、魅力各+1",
+                             "tag": "op4"
+                         }
                      ]
                  },
                  "case:op1": {
@@ -49,6 +53,16 @@
                  },
                  "case:op3": {
                     "table.妻子+体魄": 1,
+                    "table.妻子+魅力": 1,
+                    "table.妻子+追随者":1,
+                    "hand_card_refresh":1,
+                    "event_on":5310004
+                 }
+                 "case:op4": {
+                    "table.妻子+体魄": 1,
+                    "table.妻子+战斗": 1,
+                    "table.妻子+智慧": 1,
+                    "table.妻子+社交": 1,
                     "table.妻子+魅力": 1,
                     "table.妻子+追随者":1,
                     "hand_card_refresh":1,

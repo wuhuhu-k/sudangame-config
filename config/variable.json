@@ -73,13 +73,14 @@
     //  音乐切换时长
     "music_transition_time": 4,
     // 测试用，自动归类开关
-    "auto_classify": false,
+    "auto_classify": true,
     // 测试用，四个卡牌栏位自动归类整理的tag
     "auto_classify_bag_tags":
     [
-        ["char", "sudan"],
-        ["consumable"],
-        ["equipment"]
+        ["char", "sudan","coin"],
+        ["equipment"],
+        ["read","food","heirloom","army","animal"],
+        ["intelligent","thought"]
     ],
     //
     "special_counters": [

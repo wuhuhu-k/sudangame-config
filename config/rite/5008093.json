@@ -5,7 +5,7 @@
         "tips": "",
         "mapping_id":8001128, 
         "once_new":0,
-        "round_number": 1, //立即执行
+        "round_number": 0, //立即执行
         "waiting_round":5,
         "waiting_round_end_action":[
         ],        
