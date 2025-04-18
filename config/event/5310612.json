@@ -3,7 +3,7 @@
     "text": "通奸被抓",
     "is_replay": 0, //是否可以重复触发
     "auto_start": false,
-    "start_trigger": false, // 是否启动就立即开始校验条件
+    "start_trigger": true, // 是否启动就立即开始校验条件
     "on": { //时机
         "round_begin_ba": 1 
     },
@@ -34,7 +34,7 @@
                 "case:op1": {
                     "no_prompt":{
                         "table.2000021=被抓":0 , //伊曼移除被抓tag
-                        "card":2001078,  //生成1个折磨
+                        //"card":2001078,  //生成1个折磨
                         "card":2001079,
                         "card":2001079,
                         "card":2001079, //生成三个炎日天平倒计时
@@ -51,7 +51,7 @@
                 "case:op2": {
                     "no_prompt":{
                         "table.主角=被抓":0,  //伊曼移除被抓tag
-                        "card":2001078,  //生成1个折磨
+                        //"card":2001078,  //生成1个折磨
                         "card":2001079,
                         "card":2001079,
                         "card":2001079,

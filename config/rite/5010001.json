@@ -71,7 +71,7 @@
                     "delay_off":1, //关闭所哟delay
                     "no_show": {
                         "table.clean.char|主角=0":0, //移除所有角色卡，除了分身之外
-                        "table.clean.item":0, //移除所有物品卡
+                        "table.clean.item|!2000545":0, //移除所有物品卡
                         "table.主角-已拥有":1, 
                         "table.主角-主角":1,
                         "total.正当性-正当性":1,  
@@ -96,7 +96,7 @@
                     "delay_off":1, //关闭所哟delay
                     "no_show": {
                         "table.clean.char|主角=0":0, //移除所有角色卡，除了分身之外
-                        "table.clean.item":0, //移除所有物品卡
+                        "table.clean.item|!2000545":0, //移除所有物品卡
                         "table.主角-已拥有":1, 
                         "table.主角-主角":1,
                         "total.正当性-正当性":1,  

@@ -81,6 +81,19 @@
         ["consumable"],
         ["equipment"]
     ],
+    "all_auto_classify_tags":
+    [
+        "char",
+        "army",
+        "coin",
+        "intelligent",
+        "sky",
+        "read",
+        "thought",
+        "sudan",
+        "equipment"
+    ],
+    "athor_auto_classify_tag": "other",
     //
     "special_counters": [
         7100001,

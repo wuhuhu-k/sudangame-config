@@ -42,7 +42,7 @@
         "settlement_prior": [
             {
                 "condition": {
-                    "counter.5000572>=":1  //和正教决裂的话
+                    "counter.7000572>=":1  //和正教决裂的话
                 },
                 "result_title":"慢着",
                 "result_text": "纯净者教会的祭司们不是都已经和你翻脸了吗？他们不会帮你的，还是想想别的办法吧。",
