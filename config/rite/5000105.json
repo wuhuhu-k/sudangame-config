@@ -57,22 +57,22 @@
                 {
                 }
             },
-            {
-                "condition":
-                {
-                    "r1:魅力+灵感>=":[7,5]
-                },
-                "result_title":"",
-                "result_text": "啊，原来这就是爱情！",
-                "result": 
-                {   
-                    "loot":[6000062,6000064],
-                    "s1=灵感":0                       
-                },
-                "action":
-                {
-                }
-            },
+            // {
+            //     "condition":
+            //     {
+            //         "r1:魅力+灵感>=":[7,5]
+            //     },
+            //     "result_title":"",
+            //     "result_text": "啊，原来这就是爱情！",
+            //     "result": 
+            //     {   
+            //         "loot":[6000062,6000064],
+            //         "s1=灵感":0                       
+            //     },
+            //     "action":
+            //     {
+            //     }
+            // },
             {
                 "condition":
                 {
@@ -138,49 +138,49 @@
                 "is_enemy":0,
                 "text":"诗人"
             },
+            // "s2":
+            // {
+            //     "condition":
+            //     {   
+            //         "type":"item",
+            //         "cost.消耗品=":1,
+            //         "!金币":1
+            //     },
+            //     "open_adsorb":0,
+            //     "is_key":0,
+            //     "is_empty":0,
+            //     "is_enemy":0,
+            //     "text":"情报"
+            // },
+            // "s3":
+            // {
+            //     "condition":
+            //     {   
+            //         "type":"item",
+            //         "cost.消耗品=":1,
+            //         "!金币":1
+            //     },
+            //     "open_adsorb":0,
+            //     "is_key":0,
+            //     "is_empty":0,
+            //     "is_enemy":0,
+            //     "text":"情报"
+            // },
+            // "s4":
+            // {
+            //     "condition":
+            //     {   
+            //         "type":"item",
+            //         "cost.消耗品=":1,
+            //         "!金币":1
+            //     },
+            //     "open_adsorb":0,
+            //     "is_key":0,
+            //     "is_empty":0,
+            //     "is_enemy":0,
+            //     "text":"情报"
+            // },
             "s2":
-            {
-                "condition":
-                {   
-                    "type":"item",
-                    "cost.消耗品=":1,
-                    "!金币":1
-                },
-                "open_adsorb":0,
-                "is_key":0,
-                "is_empty":0,
-                "is_enemy":0,
-                "text":"情报"
-            },
-            "s3":
-            {
-                "condition":
-                {   
-                    "type":"item",
-                    "cost.消耗品=":1,
-                    "!金币":1
-                },
-                "open_adsorb":0,
-                "is_key":0,
-                "is_empty":0,
-                "is_enemy":0,
-                "text":"情报"
-            },
-            "s4":
-            {
-                "condition":
-                {   
-                    "type":"item",
-                    "cost.消耗品=":1,
-                    "!金币":1
-                },
-                "open_adsorb":0,
-                "is_key":0,
-                "is_empty":0,
-                "is_enemy":0,
-                "text":"情报"
-            },
-            "s5":
             {
                 "condition":
                 {   
