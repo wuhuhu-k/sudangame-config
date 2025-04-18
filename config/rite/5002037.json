@@ -6,7 +6,7 @@
         "mapping_id":8001317,
         "once_new":0,
         "round_number": 1,
-        "waiting_round":3,
+        "waiting_round":1,
         "waiting_round_end_action":[
             {
                 "condition": {
@@ -136,7 +136,7 @@
                 "result_text": "这次淘书的经历为热娜提供了珠宝的设计灵感。",
                 "result": 
                 {
-                    "s2+灵感":1 //额外积攒的灵感
+                    "s2+灵感":3 //额外积攒的灵感
                 },
                 "action": {
                 }

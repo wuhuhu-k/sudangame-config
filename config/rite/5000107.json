@@ -5,7 +5,7 @@
         "tips": "",
         "mapping_id":8001212,
         "once_new":0,
-        "round_number": 1,
+        "round_number": 0,
         "waiting_round":3,
         "waiting_round_end_action":[
         ],
@@ -138,49 +138,49 @@
                 "is_enemy":0,
                 "text":"诗人"
             },
+            // "s2":
+            // {
+            //     "condition":
+            //     {   
+            //         "type":"item",
+            //         "cost.消耗品=":1,
+            //         "!金币":1
+            //     },
+            //     "open_adsorb":0,
+            //     "is_key":0,
+            //     "is_empty":0,
+            //     "is_enemy":0,
+            //     "text":"情报"
+            // },
+            // "s3":
+            // {
+            //     "condition":
+            //     {   
+            //         "type":"item",
+            //         "cost.消耗品=":1,
+            //         "!金币":1
+            //     },
+            //     "open_adsorb":0,
+            //     "is_key":0,
+            //     "is_empty":0,
+            //     "is_enemy":0,
+            //     "text":"情报"
+            // },
+            // "s4":
+            // {
+            //     "condition":
+            //     {   
+            //         "type":"item",
+            //         "cost.消耗品=":1,
+            //         "!金币":1
+            //     },
+            //     "open_adsorb":0,
+            //     "is_key":0,
+            //     "is_empty":0,
+            //     "is_enemy":0,
+            //     "text":"情报"
+            // },
             "s2":
-            {
-                "condition":
-                {   
-                    "type":"item",
-                    "cost.消耗品=":1,
-                    "!金币":1
-                },
-                "open_adsorb":0,
-                "is_key":0,
-                "is_empty":0,
-                "is_enemy":0,
-                "text":"情报"
-            },
-            "s3":
-            {
-                "condition":
-                {   
-                    "type":"item",
-                    "cost.消耗品=":1,
-                    "!金币":1
-                },
-                "open_adsorb":0,
-                "is_key":0,
-                "is_empty":0,
-                "is_enemy":0,
-                "text":"情报"
-            },
-            "s4":
-            {
-                "condition":
-                {   
-                    "type":"item",
-                    "cost.消耗品=":1,
-                    "!金币":1
-                },
-                "open_adsorb":0,
-                "is_key":0,
-                "is_empty":0,
-                "is_enemy":0,
-                "text":"情报"
-            },
-            "s5":
             {
                 "condition":
                 {   

@@ -5,7 +5,7 @@
     "tips": "",
     "mapping_id":8001211, 
     "once_new": 1,
-    "round_number": 2,
+    "round_number": 0,
     "waiting_round": 1,
     "waiting_round_end_action": [],
     "method_settlement": "",
@@ -534,7 +534,7 @@
                 "s2.is": 2000129 //舞姬
             },
             "result_title": "她有着高贵的血统", //
-            "result_text": "虽然阿图娜尔似乎有些抵触，但马尔基娜还是坚持让她尝试更高贵的装扮与衣衫……当一个贵妇人为宾客跳起那些妖冶的舞蹈时，场面几乎失控，有人就差点立即要求婚了。",
+            "result_text": "虽然阿图尔娜似乎有些抵触，但马尔基娜还是坚持让她尝试更高贵的装扮与衣衫……当一个贵妇人为宾客跳起那些妖冶的舞蹈时，场面几乎失控，有人就差点立即要求婚了。",
             "result": {
                 "global_counter+7200178": 1, //成就   
                 "s2+妆扮":1,
