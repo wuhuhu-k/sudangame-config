@@ -5,7 +5,7 @@
     "auto_start": false,
     "start_trigger": true, // 是否启动就立即开始校验条件
     "on":{   //时机
-        "round_begin_ba":7 // 仪式开始时
+        "round_begin_ba":1 // 仪式开始时
     },
     "condition":{  //条件
         "counter.7000023<":28 //武器库存数量
