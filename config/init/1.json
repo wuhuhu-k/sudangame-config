@@ -13,7 +13,7 @@
     ],
     "gold_dice_count": 0,
     "back_to_prev_round_count": 9999,
-    "sudan_life_time": 99,
+    "sudan_life_time": 7,
     "difficulty": [
         {
             "name": "梅姬",
@@ -23,7 +23,7 @@
             "sudan_redraw_times_per_round": 99,
             "gold_dice_count": 3,
             "back_to_prev_round_count": 9999,
-            "sudan_life_time": 99
+            "sudan_life_time": 7
         },
         {
             "name": "哈桑",
@@ -33,7 +33,7 @@
             "sudan_redraw_times_per_round": 1,
             "gold_dice_count": 2,
             "back_to_prev_round_count": 10,
-            "sudan_life_time": 99
+            "sudan_life_time": 7
         },
         {
             "name": "女术士",
@@ -43,7 +43,7 @@
             "sudan_redraw_times_per_round": 1,
             "gold_dice_count": 1,
             "back_to_prev_round_count": 0,
-            "sudan_life_time": 99
+            "sudan_life_time": 5
         },
     ],
     //  俺寻思仪式id, 不配置或不存在就不显示

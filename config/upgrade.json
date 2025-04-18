@@ -569,7 +569,7 @@
         "icon":"gain",  //图标
         "link_card":2000024, //关联卡牌，点击图标弹出对应卡牌的详情界面
         "effect": {
-            "counter+7100008":9999
+            "counter+7100008":5
         },
         "incompatible":0
     },
