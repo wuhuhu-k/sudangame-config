@@ -4,7 +4,7 @@
         "text": "你组织了一个智力超群的团队，试图得出群星运行的规律。",       
         "tips": "",
         "once_new":0,
-        "round_number": 3,
+        "round_number": 1,
         "waiting_round":1,
         "waiting_round_end_action":[
             {
