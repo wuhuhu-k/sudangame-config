@@ -1,0 +1,156 @@
+ {
+        "id": 55500003,
+        "name": "血的妆造",
+        "text": "娜依拉等待着你的到来。",       
+        "tips": "",
+        "mapping_id":8001176, 
+        "once_new":0,
+        "round_number": 1,
+        "waiting_round":3, 
+        "waiting_round_end_action":[
+            {
+                "condition": {
+                },
+                "result_title":"",
+                "result_text": "",
+                "result": 
+                { 
+                    "s1=支持":0,
+                    "s1+反对":5,
+                    "counter+7000058":1 
+                },
+                "action": {
+                    "counter+7100002": 1, //恶名+2
+                    "prompt": {
+                        "id": "prompt_55500003_01",
+                        "text": "她写了一封辞藻华丽，充满挑逗的信件，与几个奴隶的头颅一起寄给你，但你明白，之后再遇见她可就不妙了。"
+                    }
+                }
+            }
+        ],
+        "method_settlement": "",
+        "auto_begin": 0, 
+        "auto_result": 0, //自动执行                           
+        "location": "上城区:[7,12]", 
+        "icon": "rite_12",  
+        "tag_tips": [
+        ],
+        "tag_tips_up":{
+        },
+        "tips_text":[
+            "石杀戮可以杀死你带来的人，而银杀戮则可以……"
+        ],
+        "open_conditions": [  
+        ],
+        "random_text": { 
+        },
+        "random_text_up":{
+        },
+        "random_effect": {          
+        },
+        "settlement_prior": [
+        ],                
+        "settlement": [
+            {
+                "condition": {
+                    "s4.rare=":1,
+                },
+                "result_title":"",
+                "result_text": "她仿佛一位女修士，谦卑又神圣，除去了你们的衣衫，拉着你的手，用金刀切开了[s2.name]的胸膛。切口平滑、美丽，宛若敬神的祭礼。\n她捧起鲜血，在自己身体上勾勒出妆容与衣衫，又掏出那还在跳动的心脏，踮起脚来，举过你的头顶，好似在膏一位加冕的国王。\n血液顺着你的额头流下，迷蒙了你的双眼，你只听得到心脏被挤压的噗噗声，你只感觉到她的双乳与呼吸在你皮肤上的摩擦声。",
+                "result": 
+                { 
+                    "clean.s2":1
+                },
+                "action": {
+                }
+            },
+            {
+                "condition": {
+                    "!s4.rare=":1,
+                },
+                "result_title":"",
+                "result_text": "这是一张配得上你的杀戮卡，你这样告诉她，顺势拿走了她手上的金刀，然后用锁链扣住了她的脖颈，她就这样失去了生息。",
+                "result": 
+                { 
+                    "clean.s1":1
+                },
+                "action": {
+                }
+            }
+        ],                
+        "settlement_extre": [
+            {
+                "condition": {
+                    "s4.rare=":1,
+                },
+                "result_title":"",
+                "result_text": "当你回过神来之后，你们已经气喘吁吁，躺在内脏与血泊之中，精疲力尽……\n她轻柔地舔掉你耳朵里的血块，低声言语道：我好像有点爱上你了。",
+                "result": 
+                { 
+                    "s1+激情":1,
+                    "s1+支持":1,
+                    "clean.s4":1,
+                    "s1+追随者":1
+                },
+                "action": {
+                }
+            }
+        ],
+        "cards_slot":
+        {
+            "s1":
+            {
+                "condition":
+                {
+                    "is":2000055      
+                },
+                "open_adsorb":1,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"贵妇"
+            },
+            "s2":
+            {
+                "condition":
+                {
+                    "type":"char",
+                    "!主角":1,
+                    "!动物":1,
+                    "!怪物":1
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"你为她带来了什么？"
+            },
+            "s3":
+            {
+                "condition":
+                {
+                    "主角":1,
+                    "type":"char"    
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"你需要亲自前往"
+            },
+            "s4":
+            {
+                "condition":
+                {
+                    "type":"sudan",
+                    "rare<=":3,
+                    "杀戮":1
+                },
+                "open_adsorb":0,
+                "is_key":0,
+                "is_empty":0,
+                "is_enemy":0,
+                "text":"杀戮卡……但是应该放入哪一品级？"
+            }
+        }
+    } 
