@@ -144,7 +144,13 @@
         "MouseDrag":[
             "mouse_drag_1",
             "mouse_drag_2"
-        ]
+        ],
+        //  
+        "MouseWheel_Gamepad": [],
+        "MouseRightClick_Gamepad": [],
+        "MouseLeftClick_Gamepad": [],
+        "MouseDrag_Gamepad": [],
+       
     },
     //  替换
     "harmonious_replacer": {
@@ -432,6 +438,8 @@
     "RITE_SETTLEMENT_RESULT_TITLE_FORMAT": "<sprite=1><indent=80><size=+10><font=\"Title SDF\">{0}</font></size></indent>",
     "RITE_SETTLEMENT_RESULT_DICE_WAITING": "<sprite=2><indent=120><sprite anim=\"5,11,4\">  <sprite anim=\"14,15,3\"></indent>",
     "RITE_SETTLEMENT_RESULT_NORMAL_WAITING": "<sprite=0><indent=80><sprite anim=\"5,11,3\">  <sprite anim=\"14,15,3\"></indent>",
+    "RITE_SETTLEMENT_RESULT_DICE_WAITING_Gamepad": "<sprite=2><indent=120><sprite anim=\"5,11,4\">  {0}</indent>",
+    "RITE_SETTLEMENT_RESULT_NORMAL_WAITING_Gamepad": "<sprite=0><indent=80><sprite anim=\"5,11,3\">  {0}</indent>",
 
     "QUEST_FAVOUR_TEXT_FORMAT": "<indent=30%>\n\n\n\n<i><color=#A28E58>{0}</color></i>",
 
@@ -441,6 +449,8 @@
     "OVER_STORY_TITLE_FORMAT": "<size=250%><color=#FFCF00>{0}</color></size>\n",
 
     "OVER_PROMPT_FORMAT": "{0}\n{1}",
+
+    "USER_ARCHIVE_ITEM_DESC_FORMAT": "{0}    {1}    {2}    <size=60%>{3:G}",
 
     //  新手引导国际化转换
     "slide/1-1": "slide/1-1",

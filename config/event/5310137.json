@@ -19,6 +19,7 @@
                 "begin_guide":{
                     "type": "BACK_ROUND",
                     "anim_type":"Arrow",
+                    "bind": "UI/PrevDay",
                     "pos": [-746, 377],
                     "is_show_ring": true,
                     "ring_pos": [796, -248.5],

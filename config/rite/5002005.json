@@ -300,6 +300,7 @@
                                 "begin_guide":{
                                     "type": "FILL_COIN",
                                     "anim_type":"MouseRightClick",
+                                    "bind": "UI/Submit",
                                     "pos": [-1024, -404],
                                     "is_show_ring": true,
                                     "ring_pos": [1182, -249.5],

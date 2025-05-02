@@ -70,6 +70,7 @@
                 "condition": 
                 {
                     "type":"char",
+                    "火焰大王":1,
                     "is":2000762
                 },
                 "open_adsorb":1,

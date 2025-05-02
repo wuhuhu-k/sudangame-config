@@ -27,7 +27,7 @@
             }
         ],
         "method_settlement": "",
-        "auto_begin": 1,
+        "auto_begin": 0,
         "auto_result":0,
         "location":"黑街:[2,5]",  
         "icon": "rite_21",  
@@ -72,7 +72,7 @@
                 "result": 
                 {
                     "s2+战斗":1,
-                    "clean.s1":1 //从卡池中移除流浪剑客
+                  //   "clean.s1":1 //从卡池中移除流浪剑客
                 },
                 "action": {
                     

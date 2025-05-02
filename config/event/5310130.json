@@ -19,6 +19,7 @@
                 "begin_guide":{
                     "type": "NEXT_DAY",
                     "anim_type":"MouseLeftClick",
+                    "bind": "UI/NextDay",
                     "pos": [-581, 441],
                     "is_show_ring": true,
                     "ring_pos": [1014, -448],

@@ -19,6 +19,7 @@
                 "begin_guide":{
                     "type": "RITE_STOP",
                     "anim_type":"Arrow",
+                    "bind": "UI/StopRite",
                     "pos": [196, -158],
                     "is_show_ring": true,
                     "ring_pos": [1081, -46],

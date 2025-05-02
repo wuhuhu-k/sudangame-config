@@ -19,6 +19,7 @@
                 "begin_guide":{
                     "type": "RIGHT_CLICK_CARD",
                     "anim_type":"MouseRightClick",
+                    "bind": "UI/Submit",
                     "pos": [-144, 638],
                     "is_show_ring": true,
                     "ring_pos": [-916, -649.5],
